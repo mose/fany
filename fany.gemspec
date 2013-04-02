@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 3.1"
   spec.add_dependency "yajl-ruby"
+  spec.add_dependency "i18n-active_record"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

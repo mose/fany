@@ -1,10 +1,19 @@
 ---
+common: &common
+  languages:
+  - "en"
+
 production:
   use_db: false
   inline_edits: false
+  <<: *common
+
 development:
   use_db: true
   inline_edits: true
+  <<: *common
+
 test:
   use_db: true
   inline_edits: true
+  <<: *common
