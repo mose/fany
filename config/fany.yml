@@ -1,0 +1,10 @@
+---
+production:
+  use_db: false
+  inline_edits: false
+development:
+  use_db: true
+  inline_edits: true
+test:
+  use_db: true
+  inline_edits: true
