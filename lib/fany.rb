@@ -2,10 +2,14 @@ require "fany/version"
 
 module Fany
 
-  attr_accessor :user_class, :config
+  attr_accessor :config
 
-  def self.user_class
-    @@user_class.constantize
+  def self.config
+    @@config
+  end
+
+  def self.config=(c)
+    @@config = c
   end
 
 end
