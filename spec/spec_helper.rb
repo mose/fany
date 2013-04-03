@@ -8,4 +8,4 @@ $:<<File.expand_path("../../lib",__FILE__)
 require 'minitest/spec'
 require "minitest/autorun"
 
-Combustion.initialize!
+Combustion.initialize! :active_record, :action_controller, :action_view, :sprockets

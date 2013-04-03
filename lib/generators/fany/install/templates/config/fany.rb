@@ -5,5 +5,3 @@ else
   Fany.config = OpenStruct.new( use_db: true, inline_edits: true);
 end
 
-Fany.user_class = "User"
-
